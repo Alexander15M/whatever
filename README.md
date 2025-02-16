@@ -1,3 +1,55 @@
+# Patient App
+
+This repository contains a robust and scalable foundation for the Patient App built with React Native. The project is initialized using the latest stable version of React Native and is structured to support scalable development with a clear separation of concerns.
+
+> **Note:** iOS support is excluded for now and will be added later. The current focus is on Android.
+
+---
+
+## Table of Contents
+
+- [Project Overview](#project-overview)
+- [Environment Setup](#environment-setup)
+- [Project Structure](#project-structure)
+- [Dependencies and Libraries](#dependencies-and-libraries)
+- [Android Build Configuration](#android-build-configuration)
+- [Version Control](#version-control)
+- [Screens & Navigation](#screens--navigation)
+- [Testing and Continuous Integration (CI)](#testing-and-continuous-integration-ci)
+- [Development Guidelines](#development-guidelines)
+- [Commands](#commands)
+- [API Endpoints](#api-endpoints)
+
+---
+
+## Project Overview
+
+This project is a starting point for the Patient App built with React Native. It provides:
+- A well-organized folder structure.
+- Pre-installed libraries and configurations.
+- Flexibility to scale and integrate additional features (authentication, analytics, etc.).
+- A focus on Android while planning for future iOS support.
+
+---
+
+## Environment Setup
+
+Before starting development, ensure you have the following installed:
+- **Node.js & npm/Yarn:** Latest stable versions are recommended.
+- **Java JDK:** (e.g., JDK 11 or later).
+- **Android Studio:** For Android SDK, emulators, and related tools.
+- **React Native CLI:** Globally install via:
+  ```bash
+  npm install -g react-native-cli
+  ```
+- Additional IDE/editor configurations for TypeScript, ESLint, and Prettier are recommended.
+
+---
+
+## Project Structure
+
+The project follows a clean folder structure to separate concerns:
+
 This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
 
 # Getting Started
@@ -32,32 +84,6 @@ npm run android
 yarn android
 ```
 
-### iOS
-
-For iOS, remember to install CocoaPods dependencies (this only needs to be run on first clone or after updating native deps).
-
-The first time you create a new project, run the Ruby bundler to install CocoaPods itself:
-
-```sh
-bundle install
-```
-
-Then, and every time you update your native dependencies, run:
-
-```sh
-bundle exec pod install
-```
-
-For more information, please visit [CocoaPods Getting Started guide](https://guides.cocoapods.org/using/getting-started.html).
-
-```sh
-# Using npm
-npm run ios
-
-# OR using Yarn
-yarn ios
-```
-
 If everything is set up correctly, you should see your new app running in the Android Emulator, iOS Simulator, or your connected device.
 
 This is one way to run your app — you can also build it directly from Android Studio or Xcode.
@@ -66,7 +92,7 @@ This is one way to run your app — you can also build it directly from Android 
 
 Now that you have successfully run the app, let's make changes!
 
-Open `App.tsx` in your text editor of choice and make some changes. When you save, your app will automatically update and reflect these changes — this is powered by [Fast Refresh](https://reactnative.dev/docs/fast-refresh).
+Open `App.tsx` in your text editor of choice and make some changes. When you save, your app will automatically update and reflect these changes — this is powered by [Fast Refresh](https://reactnative.dev/docs/fast-refresh).
 
 When you want to forcefully reload, for example to reset the state of your app, you can perform a full reload:
 
